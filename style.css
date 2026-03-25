@@ -86,8 +86,9 @@
   padding:20px;
 }
 .contact-photo{
+  position: absolute;
   right: 10px;
   height: 90%;
   width: auto;
-  aligh-items: center;
+  transform: translateY(-50%);
 }
