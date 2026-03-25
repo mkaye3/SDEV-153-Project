@@ -1,22 +1,23 @@
 <html>
-  <link rel="stylesheet" href="style.css">
-  <header class="header-bar">
-    <div class="logo-text-group">
-      <img src="Header_logo.png" alt="logo" class="header-logo">
-      <span class="logo-text">Safer Roads Initative</span>
-    </div>
-    <div class="header-right">
+  <div id="header-placeholder"></div>
 
-      <a href="https://mkaye3.github.io/SDEV-153-Project" class="nav-button">Home</a>
-      <a href="https://mkaye3.github.io/SDEV-153-Project/about" class="nav-button">About</a>
-      <a href="https://mkaye3.github.io/SDEV-153-Project/petition" class="nav-button">Petition</a>
-      <a href="https://mkaye3.github.io/SDEV-153-Project/contact" class="nav-button">Contact</a>
-    </div>
-    
-  </header>
+
+
+
   <body>
     <p>
       test of the about page
     </p>
   </body>
+
+
+
+  <script>
+  fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header-placeholder').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading header:', error));
+  </script>
 </html>
