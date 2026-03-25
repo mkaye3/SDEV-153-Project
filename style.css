@@ -60,9 +60,9 @@
 
 
 .bottom-left{
-  justify-content: left;
-  align-items: bottom;
   position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
 .green-content-block {
   position: relative;               
