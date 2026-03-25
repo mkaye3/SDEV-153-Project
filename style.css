@@ -87,12 +87,6 @@
   border-radius: 8px;
   margin: 10px 0;                    
 }
-.content-overlay{
-  position: absolute;
-  text-align: left;
-  color: white;
-  padding:20px;
-}
 .contact-photo{
   position: absolute;
   right: 10px;
