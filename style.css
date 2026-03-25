@@ -24,6 +24,9 @@
   display: inline-block;
   font-weight: bold;
 }
+.nav-button:hover {
+  background-color: #667790;
+}
 
 .header-right {
   float: right;
