@@ -16,12 +16,13 @@
   padding: 10px 20px;
   border-radius: 4px;
   text-align: center;
-  font-size: 14pt;
+  font-size: 12pt;
   cursor: pointer;
   margin: 0 10px;
   text-decoration: none;
   width: 50px;
   display: inline-block;
+  font-weight: bold;
 }
 
 .header-right {
@@ -30,7 +31,20 @@
   align-itmes: center
 }
 .header-logo {
-  height: 10px;
+  height: 40px;
   width: auto;
+}
+.logo-text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo-text{
+  color: black;
+  font-family: Arial;
+  font-size: 12pt;
+  margin-top: 5px;
+  font-weight: bold;
 }
 
