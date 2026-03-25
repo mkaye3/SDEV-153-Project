@@ -31,7 +31,7 @@
 .header-right {
   float: right;
   display: flex;
-  align-itmes: center
+  align-itmes: center;
   margin-right: 20px
 }
 .header-logo {
