@@ -20,11 +20,16 @@
   margin: 0 10px;
   text-decoration: none;
   width: 50px;
+  display: inline-block;
 }
 
 .header-right {
   float: right;
   display: flex;
   align-itmes: center
+}
+.header-logo {
+  height: 50px;
+  width: auto;
 }
 
