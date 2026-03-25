@@ -2,10 +2,11 @@
   background-color: #C5D5E4;
   padding: 10px 20px;
   display: flex;
-  aligh-items: center;
+  align-items: center;
   top: 0;
   left: 0;
   width: 100%;
+  justify-content: space-between;
 }
 
 .nav-button {
@@ -29,7 +30,7 @@
   align-itmes: center
 }
 .header-logo {
-  height: 50px;
+  height: 10px;
   width: auto;
 }
 
