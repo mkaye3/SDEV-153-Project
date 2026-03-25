@@ -64,6 +64,8 @@
   bottom: 5px;
   left: 20px;
   color: white;
+  font-family: Arial;
+  font-size: 11pt;
 }
 .green-content-block {
   position: relative;               
@@ -83,4 +85,9 @@
   color: white;
   padding:20px;
 }
-  
+.contact-photo{
+  right: 10px
+  height: 90%
+  width: auto;
+  aligh-items: center;
+}
