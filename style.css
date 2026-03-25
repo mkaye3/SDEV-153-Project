@@ -26,6 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-duration: 0.4s;
 }
 .nav-button:hover {
   background-color: #667790;
