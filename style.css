@@ -23,6 +23,9 @@
   width: 50px;
   display: inline-block;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav-button:hover {
   background-color: #667790;
