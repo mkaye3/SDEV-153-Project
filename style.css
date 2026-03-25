@@ -11,7 +11,8 @@ header {
   text-align: center;
   font-size: 14pt;
   cursor: pointer;
-  margin: 100px 50px
+  margin: 100px 50px;
+  text-decoration: none
 }
 
 .header-right {
