@@ -6,14 +6,14 @@ header {
   background-color: #8896AB;
   color: rgb(255, 255, 255);
   font-family: Arial;
-  padding: 25px, 60px;
+  padding: 25px 60px;
   border-radius: 4px;
   text-align: center;
   font-size: 14pt;
   cursor: pointer;
   margin: 100px 50px;
   text-decoration: none;
-  width: 200px
+  width: 200px;
 }
 
 .header-right {
