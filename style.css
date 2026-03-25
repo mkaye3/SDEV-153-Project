@@ -67,6 +67,14 @@
   font-family: Arial;
   font-size: 11pt;
 }
+.bio{
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  color: white;
+  font-family: Arial;
+  font-size:11pt;
+}
 .green-content-block {
   position: relative;               
   width: 100%;                       
