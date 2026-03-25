@@ -1,5 +1,11 @@
-header {
-  background-color: #C5D5E4
+.header-bar {
+  background-color: #C5D5E4;
+  padding: 10px 20px;
+  display: flex;
+  aligh-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .nav-button {
