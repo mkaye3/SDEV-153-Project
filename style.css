@@ -7,3 +7,10 @@ header {
   font-color: rgb(255, 255, 255);
   font-family: Arial
 }
+
+.header-right {
+  float: right;
+  display: flex;
+  align-itmes: center
+}
+
