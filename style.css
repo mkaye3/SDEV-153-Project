@@ -74,6 +74,7 @@
   color: white;
   font-family: Arial;
   font-size:11pt;
+  max-width: 500px;
 }
 .green-content-block {
   position: relative;               
