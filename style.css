@@ -62,6 +62,7 @@
 .bottom-left{
   justify-content: left;
   align-items: bottom;
+  position: absolute;
 }
 .green-content-block {
   position: relative;               
