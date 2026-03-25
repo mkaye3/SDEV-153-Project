@@ -91,4 +91,5 @@
   height: 90%;
   width: auto;
   transform: translateY(-50%);
+  border-radius: 4px;
 }
