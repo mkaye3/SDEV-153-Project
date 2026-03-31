@@ -122,7 +122,7 @@
 .section-image-2 {
   width: 100%;
   height: auto;
-  max-height: 100%;
+  max-height: 500px;
   object-fit: contain;
   border-radius: 4px;
   border: 3px solid black;
@@ -153,4 +153,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
