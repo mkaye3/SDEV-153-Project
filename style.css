@@ -136,3 +136,12 @@
 .text-content {
   width: 50%
 }
+
+.image-wrapper {
+  width: 40%;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
