@@ -8,6 +8,16 @@
   width: 100%;
   justify-content: space-between;
 }
+.footer-bar {
+  background-color: #C5D5E4;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+}
 
 .nav-button {
   background-color: #8896AB;
