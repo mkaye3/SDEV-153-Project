@@ -120,6 +120,18 @@
   margin: 10px 0;
   overflow: hidden;
 }
+.petition-form-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  height: auto;
+  background: white;
+  border-radius: 8px;
+  margin: 10px 0;
+  overflow: hidden;
+  justify-content: center;
+}
 .contact-photo{
   position: absolute;
   right: 10px;
