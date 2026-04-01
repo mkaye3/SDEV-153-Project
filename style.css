@@ -161,16 +161,17 @@
   align-items: center;
   gap: 20px;
   padding: 20px;
-  height: 250px;
+  height: 100px;
   background: #466362;
   border-radius: 8px;
   margin: 10px 0;
   overflow: hidden;
+  justify-content: space-evenly;
 }
 .sign-petition-block-text {
   color: white;
   font-family: Arial;
-  font-size: 14pt;
+  font-size: 16pt;
 }
 .sign-petition-button {
   background-color: #938581;
@@ -180,9 +181,24 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
-
-
+.green-banner{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  height: 50px;
+  background: #466362;
+  border-radius: 8px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+.green-banner-text h1 {
+  color: white;
+  font-family: Arial;
+  font-size: 24pt;
+}
 
 /* Mobile CSS */
 
