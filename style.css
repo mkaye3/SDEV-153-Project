@@ -211,6 +211,7 @@
   font-family: Arial;
   font-size: 25pt;
   text-align: center;
+  justify-content: center;
 }
 
 /* Mobile CSS */
