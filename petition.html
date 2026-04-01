@@ -1,5 +1,11 @@
 <html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Petition</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+  </head>
   <div id="header-placeholder"></div>
+  
 
 
 
@@ -58,6 +64,7 @@
 </ul>
 </ul>
     </section>
+    <div id="footer-placeholder"></div>
   </body>
 
 
@@ -69,5 +76,12 @@
       document.getElementById('header-placeholder').innerHTML = data;
     })
     .catch(error => console.error('Error loading header:', error));
+
+    fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-placeholder').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading footer:', error));
   </script>
 </html>
