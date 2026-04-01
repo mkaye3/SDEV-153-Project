@@ -155,3 +155,29 @@
   align-items: center;
   padding: 10px;
 }
+
+.sign-petition-block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  height: 250px;
+  background: #466362;
+  border-radius: 8px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+.sign-petition-block-text {
+  color: white;
+  font-family: Arial;
+  font-size: 14pt;
+}
+.sign-petition-button {
+  background-color: #938581;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  padding: 12px 24px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
