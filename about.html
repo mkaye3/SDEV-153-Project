@@ -13,7 +13,7 @@
   <body>
   <section class="white-content-block">
     <div class="image-wrapper">
-      <img src="texas-stats.webp" alt="Pie chart showing what traffic violations led to a crash. DUI's and speeding make up the majority." class="section-image">
+      <img src="Texas-Stats.webp" alt="Pie chart showing what traffic violations led to a crash. DUI's and speeding make up the majority." class="section-image">
     </div>
     <div class="text-content">
       <h1 class="main-page-h1">
@@ -67,6 +67,7 @@ The current system often allows repeat offenders to continue driving with minima
     <div class="image-wrapper">
       <img src="Map.png" alt="Map of locations where local agencies or officals have endorced our petition" class="section-image-2">
     </div>
+    <div id="footer-placeholder"></div>
   </body>
 
 
@@ -78,5 +79,11 @@ The current system often allows repeat offenders to continue driving with minima
       document.getElementById('header-placeholder').innerHTML = data;
     })
     .catch(error => console.error('Error loading header:', error));
+    fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-placeholder').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading footer:', error));
   </script>
 </html>
