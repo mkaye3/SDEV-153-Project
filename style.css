@@ -257,6 +257,20 @@
   
 }
 
+.submit-button{
+  width: 100%;
+  margin-top: 20px;
+  background-color: #D3D3D3;
+  color: black;
+  font-size: 14pt;
+  border: 1px solid black;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.submit-button hover{
+  background-color: #C0C0C0
+}
+
 /* Mobile CSS */
 
 @media (max-width: 768px) {
