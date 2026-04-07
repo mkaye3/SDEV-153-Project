@@ -137,7 +137,7 @@
   gap: 10px;
   flex: 1;
 }
-.petition-form-block input {
+.petition-form-block input:not([type="submit"]) {
   width: 100%;
   margin-top: 5px;
   background-color: #D3D3D3;
