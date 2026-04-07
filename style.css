@@ -335,11 +335,17 @@
   }
 
   .contact-photo {
-    position: static;
+    position: relative;   /* key fix */
+    top: auto;
+    right: auto;
     transform: none;
-    width: 100%;
-    height: auto;
+
+    width: 100%;          /* makes it fit screen */
+    height: auto;         /* prevents huge scaling */
+    max-width: 300px;     /* optional limit so it’s not giant */
+
     margin-top: 20px;
+    display: block;
   }
 
   .bottom-left {
