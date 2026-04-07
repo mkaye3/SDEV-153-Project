@@ -322,9 +322,28 @@
   .petition-form-block form > div {
     flex-direction: column;
   }
-  .green-content-block{
+  .green-content-block {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    align-items: flex-start;
   }
-  .contact-photo
-}
+
+  .bio,
+  .bottom-left {
+    width: 100%;
+  }
+
+  .contact-photo {
+    position: static;
+    transform: none;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .bottom-left {
+    margin-top: 20px;
+  }
 
 }
