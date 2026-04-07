@@ -139,7 +139,7 @@
   flex: 1;
 }
 .petition-form-block input {
-  width: 25%;
+  width: 100%;
   margin-top: 10px;
   background-color: #8896AB;
   color: #FFFFFF;
@@ -147,12 +147,20 @@
   border: 1px solid black;
   
 }
+.petition-form-block form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;   
+}
 .fill-petition {
   color: #FFFFFF;
   font-size: 14pt;
   font-weight: bold;
   justify-content: center;
   text-align: center;
+}
+.petition-form-block form > div input {
+  width: 50%;
 }
 .contact-photo{
   position: absolute;
