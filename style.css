@@ -1,6 +1,6 @@
 .header-bar {
   background-color: #C5D5E4;
-  padding: 10px 20px;
+  padding: 10px 0px 10px 20px;
   display: flex;
   align-items: center;
   top: 0;
@@ -51,7 +51,7 @@
   float: right;
   display: flex;
   align-items: center;
-  /*margin-right: 20px*/
+  margin-right: 20px
 }
 .menu-toggle {
   display: none;
