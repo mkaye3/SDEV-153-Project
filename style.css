@@ -48,6 +48,7 @@ html, body {
   justify-content: center;
   align-items: center;
   transition-duration: 0.4s;
+  white-space: nowrap;
 }
 .nav-button:hover {
   background-color: #667790;
