@@ -75,7 +75,7 @@
   left: 20px;
   color: white;
   font-family: Arial;
-  font-size: 11pt;
+  font-size: 14pt;
 }
 .bio{
   position: absolute;
@@ -83,7 +83,7 @@
   left: 20px;
   color: white;
   font-family: Arial;
-  font-size:11pt;
+  font-size:14pt;
   max-width: 500px;
 }
 .green-content-block {
@@ -181,7 +181,7 @@
 }
 .main-page-h1 {
   font-family: Arial;
-  font-size: 16pt;
+  font-size: 18pt;
   font-weight: bold;
   text-decoration: underline;
   margin-bottom: 10px;
@@ -193,7 +193,7 @@
 .main-page-p {
   color: black;
   font-family: Arial;
-  font-size: 11pt;
+  font-size: 14pt;
 }
 .text-content {
   flex: 1;
