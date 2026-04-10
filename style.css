@@ -199,6 +199,11 @@
   font-family: Arial;
   font-size: 14pt;
 }
+ul,li {
+  color: black;
+  font-family: Arial;
+  font-size: 14pt;
+}
 .text-content {
   flex: 1;
   
