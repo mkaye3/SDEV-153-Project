@@ -282,6 +282,9 @@ ul,li {
 input::placeholder {
   color: gray;
 }
+body{
+  line-height: 1.5;
+}
 
 /* Mobile CSS */
 
