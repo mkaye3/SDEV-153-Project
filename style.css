@@ -144,7 +144,7 @@
 .petition-form-block input:not([type="submit"]) {
   width: 100%;
   margin-top: 5px;
-  background-color: #D3D3D3;
+  background-color: #f9f9f9;
   color: black;
   font-size: 14pt;
   border: 1px solid black;
