@@ -321,6 +321,7 @@
   }
   .petition-form-block form > div {
     flex-direction: column;
+    gap: 0px;
   }
   .green-content-block {
     flex-direction: column;
