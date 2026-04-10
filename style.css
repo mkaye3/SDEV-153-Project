@@ -42,7 +42,11 @@
   background-color: #667790;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
 }
-
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
 .header-right {
   float: right;
   display: flex;
