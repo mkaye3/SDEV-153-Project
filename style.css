@@ -27,6 +27,7 @@ html, body {
   left: 0;
   width: 100%;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .nav-button {
