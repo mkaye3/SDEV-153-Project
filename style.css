@@ -269,7 +269,7 @@ ul,li {
 .submit-button{
   width: 100%;
   margin-top: 20px;
-  background-color: #D3D3D3;
+  background-color: #F9F9F9;
   color: black;
   font-size: 14pt;
   border: 1px solid black;
@@ -277,7 +277,7 @@ ul,li {
   transition-duration: 0.4s;
 }
 .submit-button:hover{
-  background-color: #C0C0C0
+  background-color: #D3D3D3
 }
 input::placeholder {
   color: gray;
