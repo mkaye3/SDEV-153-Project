@@ -18,6 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
       toggle.textContent = "☰";
     }
 
-  });
+  }, 50);
 
 });
