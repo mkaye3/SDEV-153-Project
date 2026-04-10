@@ -274,6 +274,9 @@
 .submit-button:hover{
   background-color: #C0C0C0
 }
+input::placeholder {
+  color: gray;
+}
 
 /* Mobile CSS */
 
