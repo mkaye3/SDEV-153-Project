@@ -53,6 +53,14 @@
   align-items: center;
   margin-right: 20px
 }
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 .header-logo {
   height: 50px;
   width: auto;
@@ -320,20 +328,41 @@ body{
     flex-direction: column;
     gap: 10px;
   }
-
-  /* Nav buttons wrap nicely */
+/*
+  /* Nav buttons wrap nicely *
   .header-right {
     flex-wrap: wrap;
     justify-content: center;
     margin-right: 0;
   }
 
-  /* Make buttons easier to tap */
+  /* Make buttons easier to tap *
   .nav-button {
     width: auto;
     padding: 10px 15px;
     font-size: 11pt;
   }
+*/
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .header-right {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header-right.active {
+    display: flex;
+  }
+
+  .nav-button {
+    width: 100%;
+    text-align: center;
+  }
+}
   .petition-form-block form > div {
     flex-direction: column;
     gap: 0px;
