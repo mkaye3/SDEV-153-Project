@@ -344,25 +344,37 @@ body{
   }
 */
 
-  .menu-toggle {
-    display: block;
-  }
-
   .header-right {
-    display: none;
+    display: flex;
     flex-direction: column;
     width: 100%;
+
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+
+    transition: max-height 0.3s ease, opacity 0.3s ease;
   }
 
   .header-right.active {
-    display: flex;
+    max-height: 300px; /* adjust if you add more links */
+    opacity: 1;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
   }
 
   .nav-button {
     width: 100%;
     text-align: center;
+    margin: 5px 0;
   }
-}
+
   .petition-form-block form > div {
     flex-direction: column;
     gap: 0px;
