@@ -308,6 +308,18 @@ body{
   line-height: 1.5;
 }
 
+.table-column-large {
+  width: 85%;
+}
+table {
+  width: 50%;
+}
+tr {
+  border-bottom: 1px solid #ddd;
+}
+  
+
+
 /* Mobile CSS */
 
 @media (max-width: 768px) {
