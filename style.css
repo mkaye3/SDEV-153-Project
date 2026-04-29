@@ -317,6 +317,13 @@ table {
 tr {
   border-bottom: 1px solid #ddd;
 }
+.dollar-td {
+  text-align: center;
+}
+th, td {
+  font-family: Arial;
+  font-size:14pt;
+}
   
 
 
