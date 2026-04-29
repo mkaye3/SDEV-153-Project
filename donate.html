@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Donate</title>
+    <link rel="icon" href="photos/favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div id="header-placeholder"></div>
+    <section class="green-banner">
+      <h1 class="green-banner-text">
+        Support Us Financially
+      </h1>
+    </section>
+    <div id="footer-placeholder"></div>
+  </body>
+
+  <script>
+  fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header-placeholder').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading header:', error));
+    fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-placeholder').innerHTML = data;
+    })
+    .catch(error => console.error('Error loading footer:', error));
+  </script>
+</html>
