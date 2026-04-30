@@ -444,5 +444,8 @@ table, th, td {
   .bottom-left {
     margin-top: 20px;
   }
+  table {
+  width: 95%;
+}
 
 }
