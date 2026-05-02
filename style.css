@@ -345,6 +345,11 @@ table, th, td {
   border-collapse: collapse;
 }
 
+.contact-p {
+  color: White;
+  font-family: Arial;
+  font-size: 14pt;
+}
 
 /* Mobile CSS */
 
@@ -439,11 +444,7 @@ table, th, td {
   }
 
 
-.contact-p {
-  color: White;
-  font-family: Arial;
-  font-size: 14pt;
-}
+
   
 
   .bottom-left {
