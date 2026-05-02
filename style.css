@@ -339,6 +339,7 @@ tr {
 th, td {
   font-family: Arial;
   font-size:14pt;
+  padding: 5px;
 }
 table, th, td {
   border: 1px solid black;
